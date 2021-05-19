@@ -89,7 +89,7 @@
 
     <!-- Scripts -->
     <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRfgHU41RIUgGwsC85wuv_SkR05fOTOrE">
+        src="https://maps.googleapis.com/maps/api/js?key=">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
