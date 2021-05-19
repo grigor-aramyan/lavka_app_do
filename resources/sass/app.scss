@@ -1,0 +1,144 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@media (max-width: 768px) {
+    .categoriesProductCountWidth {
+        width: 40%;
+    }
+
+    .responsiveSplash {
+        margin-left: 0px;
+        width: 100vw;
+    }
+
+    .carousel-caption > h5 {
+        font-size: 200%;
+    }
+
+    .carousel-caption > p {
+        font-size: 150%;
+    }
+
+    .mobileStart {
+        font-size: 300%;
+        margin-top: 20px;
+    }
+
+    .mobile_footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: white;
+        padding: 15px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .menu_item_capture {
+        font-size: 120%;
+    }
+
+    .media_font_size {
+        font-size: 80%;
+    }
+
+    .responsive_selected_tab_product_image {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width: 769px) {
+    .categoriesProductCountWidth {
+        width: 30%;
+    }
+
+    .responsiveSplash {
+        margin-left: 25vw;
+        width: 50vw;
+    }
+
+    .mobile_footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: white;
+        padding: 15px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .menu_item_capture {
+        font-size: 90%;
+    }
+
+    .responsive_selected_tab_product_image {
+        width: 50%;
+        height: auto;
+    }
+
+}
+
+.menu_selected_item {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.regular_link {
+    color: grey;
+}
+
+.active_link {
+    color: blue;
+    border-bottom: 2px solid blue;
+    pointer-events: none;
+}
+
+.active_link:hover {
+    text-decoration: none;
+}
+
+.regular_link:hover {
+    text-decoration: none;
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.label_style {
+    color: silver;
+}
+
+.rounded_input {
+    border-radius: 10px;
+}
+
+.selected_link_special {
+    background-color: silver;
+    padding: 10px;
+    border-radius: 10px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.hidden_element {
+    display: none;
+}
+
+.visible_element {
+    display: initial;
+}
+
+.tab_items_capture {
+    background-color: grey;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
